@@ -1,53 +1,129 @@
 {
-    "animals": [
-        {
-            "id": 1,
-            "name": "Doodles",
-            "breed": "Poodle",
-            "customerId": 1,
-            "locationId": 2
-        },        {
-            "id": 1,
-            "name": "rex",
-            "breed": "pitbull",
-            "customerId": 2,
-            "locationId": 1
-        },        {
-            "id": 1,
-            "name": "leo",
-            "breed": "mutt",
-            "customerId": 3,
-            "locationId": 1
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct"
-        },
-        {
-            "id": 1,
-            "name": "Patrick Mattera",
-            "address": "106 Hardcourt ave"
-        },
-        {
-            "id": 1,
-            "name": "German Fernandez",
-            "address": "47 Cumerford st"
-        }
-    ],
-    "employees": [],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "locationId": 2,
+      "customerId": 1
+    },
+    {
+      "id": 2,
+      "name": "rex",
+      "breed": "pitbull",
+      "customerId": 2,
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "leo",
+      "breed": "mutt",
+      "customerId": 3,
+      "locationId": 1
+    },
+    {
+      "name": "Elliot",
+      "breed": "Boy",
+      "locationId": 2,
+      "customerId": 3,
+      "id": 4
+    },
+    {
+      "name": "LEO F",
+      "breed": "pitbull",
+      "locationId": 4,
+      "customerId": 2,
+      "id": 6
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hannah Hall",
+      "address": "7002 Chestnut Ct",
+      "email": "hannah@hannah.com"
+    },
+    {
+      "id": 2,
+      "name": "Patrick Mattera",
+      "address": "106 Hardcourt ave",
+      "email": "patrick@patrick.com"
+    },
+    {
+      "id": 3,
+      "name": "German Fernandez",
+      "address": "47 Cumerford st",
+      "email": "german@german.com"
+    },
+    {
+      "name": "sherwin vargas",
+      "address": "100 antioch pike",
+      "email": "svargas025@gmail.com",
+      "id": 4
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Jeremy Bakker",
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "name": "yahoo ligans",
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "name": "mac attack",
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "name": "lame o ",
+      "locationId": 1
+    },
+    {
+      "name": "Wayne",
+      "locationId": 1,
+      "id": 5
+    },
+    {
+      "name": "yahoos",
+      "locationId": 2,
+      "id": 6
+    },
+    {
+      "name": "eminems",
+      "locationId": "4",
+      "id": 7
+    },
+    {
+      "name": "elizabete",
+      "locationId": 1,
+      "id": 8
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    },
+    {
+      "name": "nashville west",
+      "address": "234 broadway",
+      "id": 3
+    },
+    {
+      "name": "Nashville East",
+      "address": "123 Chatoona",
+      "id": 4
+    }
+  ]
 }
